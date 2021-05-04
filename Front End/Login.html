@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Exacta Education</title>
+</head>
+<body>
+    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/ExLogo.JPG" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Exacta Education
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Navbar text with an inline element
+            </span>
+          </div>
+        </div>
+    </nav>-->
+
+    <!--Contenedor se divide en 3 rows(A su vez, cada row tiene subdivisiones) de 3 columnas-->
+    <div class="container-md" id="contenedor"> 
+    <!--Primera fila-->
+    <div class="row" id="">
+        <!--Primera columna-->
+        <div class="col-4" id="unoXuno">
+            <!--Vacio-->
+        </div>
+        <!--Segunda columna-->
+        <div class="col-4" id="unoXdos">
+            <!--Vacio-->
+        </div>
+        <!--Tercera columna-->
+        <div class="col-4 text-end" id="unoXtres">
+            <span>Todavia no tenés cuenta?</span> <button type="button" class="btn btn-outline-primary">Crear cuenta</button>
+        </div>
+    </div>
+    <!--Segunda fila-->
+    <div class="row" id="segundaFila">
+        <!--Primera columna, se subdivide en 3 filas más-->
+        <div class="col-4 text-center my-auto" id="dosXuno">
+            <!--Fila1-->
+            <div class="row">
+                <img src="" alt="">
+            </div>
+            <!--Fila2-->
+            <div class="row">
+                <h1>E<span class="text-secondary">X</span>ACTA EDUCATION</h1>
+                <p class="fw-bolder">Sistema de gestión de sesiones</p>
+            </div>
+            <!--Fila3-->
+            <div class="row">
+                <p class="px-5">Ingresa al panel principal y 
+                    gestioná tus sesiones, agregando nuevas,
+                    borrando, o editando las que quieras.
+                </p>
+            </div>
+        </div>
+        <!--Segunda columna, se subdivide en 4 filas-->
+        <div class="col-4" id="dosXdos">
+            <!--Fila1-->
+            <div class="row">
+                <div class="col">
+                    <h2>Ingresa en el Gestor de Sesiones</h2>
+                    <p>Ingresa los detalles de tu usuario</p>
+                </div>
+            </div>
+            <!--Fila2-->
+            <div class="row">
+                <div class="col">
+                    
+                    <label for="usuario" class="form-label">Usuario</label> 
+                    
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping"><i class="far fa-user"></i></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+            </div>
+            <!--Fila3-->
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <label for="exampleInputPassword1" class="form-label">Password</label><a class="form-text float-end" id="emailHelp" href="">Olvidaste tu contraseña?</a>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                        <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+            <!--Fila4-->
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-dark">Sign in</button>
+                </div>
+            </div>
+        </div>
+        <!--Tercera Columna-->
+        <div class="col-4" id="dosXtres">
+            <!--Vacio-->
+        </div>
+    </div>
+    <!--Tercera Fila-->
+    <div class="row" id="terceraFila">
+        <div class="col-4" id="tresXuno">
+            <p>Version 1.0</p> 
+        </div>
+        <div class="col-4" id="tresXdos">
+
+        </div>
+        <div class="col-4" id="tresXtres">
+            <p class="float-end">© Copyright 2021 PC</p>
+        </div>
+    </div>
+    
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>

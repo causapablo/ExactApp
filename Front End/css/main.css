@@ -1,0 +1,19 @@
+#contenedor{
+    margin-top: 50px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.4);
+}
+#dosXdos{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+#unoXdos, #unoXtres, #dosXtres,
+#tresXdos, #tresXtres, #dosXdos{
+    background-color: #bbbfca;
+}
+#unoXuno, #dosXuno, #tresXuno,#segundaFila{
+    background-color: #325288;
+}
+#unoXuno, #unoXdos, #unoXtres{
+    padding: 25px 25px 5px 3px;
+}
